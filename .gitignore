@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# =========================
+# Project-specific
+# =========================
+
+# Output data
+sentiment_output/
+
+# Optional: keep repo clean from large exports
+*.csv
+
+# Model / cache (optional but recommended)
+.cache/
+huggingface/
+torch_cache/
