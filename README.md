@@ -9,13 +9,17 @@ AI-powered news sentiment analysis for futures markets (ES, NQ, GC, CL).
 - Market bias detection
 
 ## Setup
-pip install -r requirements.txt
-python sentiment_analysis.py
+pip install -r requirements.txt, 
+ python sentiment_analysis.py
 
 ## Example Output
-(Bullish / Bearish summary)
+Aggregate sentiment_index: -0.1171
+Market bias: Neutral
+Positive: 16.81%
+Negative: 45.13%
+Neutral: 38.05%
 
-## Original code
+## Credits / Inspiration
 
 [https://www.youtube.com/watch?v=iW8NtsjTfN0&list=WL&index=9&t=3s](https://www.youtube.com/watch?v=iW8NtsjTfN0&list=WL&index=11)
 https://github.com/ZiadFrancis/NewsSentimentScanner
